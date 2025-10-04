@@ -9,6 +9,11 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+// ✅ Home Route (for checking server status)
+app.get("/", (req, res) => {
+  res.send("✅ Server is working fine!");
+});
+
 // Routes
 import authRoutes from "./routes/authRoutes.js";
 import apkRoutes from "./routes/apkRoutes.js";
@@ -17,7 +22,10 @@ app.use("/api/auth", authRoutes);
 app.use("/api/apk", apkRoutes);
 
 // DB Connection
-mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect(process.env.MONGO_URI, { 
+  useNewUrlParser: true, 
+  useUnifiedTopology: true 
+})
 .then(() => console.log("MongoDB connected"))
 .catch(err => console.log(err));
 
