@@ -78,43 +78,90 @@ const Home = () => {
       {/* Video Section */}
       <div className="grid md:grid-cols-3 gap-4 mt-3 p-2">
         {/* Video 1 */}
-        <div className="shadow-xl shadow-gray-200 border border-gray-300 p-2 rounded">
-          <iframe
-            className="w-full h-100"
-            src="https://www.youtube.com/embed/EcpSO_V3XdY"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
-          <p className="text-center font-semibold text-xl">How to make money.</p>
-        </div>
+  <div className='shadow-xl shadow-gray-200 border border-gray-300 p-2 rounded '>
+    <iframe
+         className='w-full h-100'
+      src="https://www.youtube.com/embed/xiPmPXxbeqU"
+      title="YouTube video player"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
+    <p className='text-center font-semibold text-xl'>How to make money.</p>
+  </div>
 
-        {/* Video 2 */}
-        <div className="shadow-xl shadow-gray-200 border border-gray-300 p-2 rounded">
-          <iframe
-            className="w-full h-100"
-            src="https://www.youtube.com/embed/vNVBOPeqsVU"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
-          <p className="text-center font-semibold text-xl">How to deposit</p>
-        </div>
+  {/* Video 2 */}
+  <div className='shadow-xl shadow-gray-200 border border-gray-300 p-2 rounded '>
+    <iframe
+     className='w-full h-100'
+      src="https://www.youtube.com/embed/V87ZGyRv0JM"
+      title="YouTube video player"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
+    <p className='text-center font-semibold text-xl'>how to withdraw</p>
+  </div>
 
-        {/* Video 3 */}
-        <div className="shadow-xl shadow-gray-200 border border-gray-300 p-2 rounded">
-          <iframe
-            className="w-full h-100"
-            src="https://www.youtube.com/embed/hrhs7vmiN2M"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
-          <p className="text-center font-semibold text-xl">How to withdraw money</p>
-        </div>
+  {/* Video 3 */}
+  <div className='shadow-xl shadow-gray-200 border border-gray-300 p-2 rounded'>
+    <iframe
+          className='w-full h-100'
+      src="https://www.youtube.com/embed/mFPr08ECTSE"
+      title="YouTube video player"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
+    <p className='text-center font-semibold text-xl'> Binance Verification</p>
+  </div>
+  {/* Video 4 */}
+  <div className='shadow-xl shadow-gray-200 border border-gray-300 p-2 rounded'>
+    <iframe
+          className='w-full h-100'
+      src="https://www.youtube.com/embed/Dxh9V075-U4"
+      title="YouTube video player"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
+    <p className='text-center font-semibold text-xl'>Choose your Investment plan</p>
+  </div>
+  {/* Video 5 */}
+  <div className='shadow-xl shadow-gray-200 border border-gray-300 p-2 rounded'>
+    <iframe
+          className='w-full h-100'
+      src="https://www.youtube.com/embed/UP_yiWhE7_s"
+      title="YouTube video player"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
+    <p className='text-center font-semibold text-xl'> spin</p>
+  </div>
+   {/* Video 6 */}
+  <div className='shadow-xl shadow-gray-200 border border-gray-300 p-2 rounded'>
+    <iframe
+          className='w-full h-100'
+      src="https://www.youtube.com/embed/PmdvAeC4bJ4"
+      title="YouTube video player"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
+    <p className='text-center font-semibold text-xl'> Sign up</p>
+  </div>
+   {/* Video 7*/}
+  <div className='shadow-xl shadow-gray-200 border border-gray-300 p-2 rounded'>
+   <iframe
+   className='w-full h-100'
+  src="https://www.youtube.com/embed/CRVP7pGfjfw"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+    <p className='text-center font-semibold text-xl'>login</p>
+  </div>
       </div>
     </div>
   );
